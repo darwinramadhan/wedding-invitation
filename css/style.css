@@ -37,10 +37,11 @@ h3 {
   height: 100%;
   position: fixed;
   overflow: hidden;
-  background-image: url(../img/foto1.jpg);
+  background-image: url(../img/IMG-20211009-WA0011.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   z-index: 1;
   color: var(--bgColor);
   transition: 0.5s;
@@ -67,9 +68,10 @@ h3 {
 #cover button {
   font-size: 1.3rem;
   width: 80%;
-  background-color: #ebf5fc;
-  box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 255.5), inset 6px 6px 20px rgba(255, 255, 255, 0.05);
-  color: #444747;
+  background-color: #2b2b43;
+  border: 4px solid var(--bgColor);
+  border-radius: 10px;
+  color: var(--bgColor);
   font-weight: bold;
 }
 
@@ -83,15 +85,17 @@ h3 {
 
 #hero {
   min-height: 100vh;
-  background-image: url(../img/foto1.jpg);
+  background-image: url(../img/20200102_135743.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  color: rgb(0, 255, 255);
+  color: #2b2b43;
+  font-weight: bold;
 }
 
 #hero h2 {
   font-size: 2rem !important;
+  margin-top: 5px;
 }
 
 #hero h1 {
@@ -100,7 +104,7 @@ h3 {
 }
 
 #hero hr {
-  border: 2px solid var(--bgColor);
+  border: 1px solid #2b2b43 !important;
   opacity: 1;
   width: 40%;
 }
@@ -140,6 +144,10 @@ h3 {
   opacity: 1;
 }
 
+#profil .pengantin {
+  overflow-x: hidden;
+}
+
 #profil .pengantin h2 {
   font-size: 2.5rem !important;
 }
@@ -166,10 +174,11 @@ h3 {
 /* Jadwal */
 
 #jadwal {
-  background-image: url(../img/IMG-20180902-WA0038.jpg);
+  background-image: url(../img/20190720_222007.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   padding-top: 40px;
   color: rgb(0, 0, 36);
 }

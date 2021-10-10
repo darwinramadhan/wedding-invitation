@@ -469,7 +469,21 @@
     width: 80%;
   }
 
+  #gift .akhirGift{
+    font-size: 1.5rem !important;
+  }
+
   /* End gift */
+
+  /* Footer */
+
+  footer h2{
+    font-size: 1rem !important;
+  }
+
+  /* End footer */
+
+
 }
 
 @media screen and (max-width: 360px) {
@@ -552,6 +566,11 @@
   }
 
   /* End profil */
+
+  .dua svg {
+    margin-bottom: -90px !important;
+    opacity: 1;
+  }
 
   /* Jadwal */
 
