@@ -1,18 +1,18 @@
-var countDate = new Date("Jan 01 2022 00:00:00").getTime();
+let countDate = new Date("Jan 28 2022 10:00:00").getTime();
 
 function newYear() {
-  var now = new Date().getTime();
+  let now = new Date().getTime();
   gap = countDate - now;
 
-  var detik = 1000;
-  var menit = detik * 60;
-  var jam = menit * 60;
-  var hari = jam * 24;
+  let detik = 1000;
+  let menit = detik * 60;
+  let jam = menit * 60;
+  let hari = jam * 24;
 
-  var h = Math.floor(gap / hari);
-  var j = Math.floor((gap % hari) / jam);
-  var m = Math.floor((gap % jam) / menit);
-  var d = Math.floor((gap % menit) / detik);
+  let h = Math.floor(gap / hari);
+  let j = Math.floor((gap % hari) / jam);
+  let m = Math.floor((gap % jam) / menit);
+  let d = Math.floor((gap % menit) / detik);
 
   document.getElementById("hari").innerText = h;
   document.getElementById("jam").innerText = j;
@@ -24,8 +24,8 @@ setInterval(function () {
   newYear();
 }, 1000);
 
-var myAudio = document.getElementById("audio");
-var isPlaying = false;
+let myAudio = document.getElementById("audio");
+let isPlaying = false;
 function togglePlay() {
   myAudio.play();
   terakhir = document.querySelector("#cover");

@@ -14,7 +14,8 @@
 
 body {
   font-family: Ubuntu, sans-serif;
-  min-height: 900px;
+  max-width: 567px;
+  margin: 0 auto;
   background-color: var(--bgColor);
 }
 
@@ -37,24 +38,26 @@ h3 {
   height: 100%;
   position: fixed;
   overflow: hidden;
-  background-image: url(../img/IMG-20211009-WA0011.jpg);
+  overflow-y: hidden;
+  background-image: url(../img/ber2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  background-position-y: 70%;
   background-attachment: fixed;
   z-index: 1;
-  color: var(--bgColor);
+  color: #2b2b43;
   transition: 0.5s;
 }
 
 #cover h2 {
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
   font-family: Ephesis, sans-serif;
   font-weight: bold;
 }
 
 #cover p {
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
   font-family: Ephesis, sans-serif;
   font-weight: bold;
 }
@@ -85,21 +88,22 @@ h3 {
 
 #hero {
   min-height: 100vh;
-  background-image: url(../img/20200102_135743.jpg);
+  background-image: url(../img/ber2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-position-y: 35%;
   color: #2b2b43;
   font-weight: bold;
 }
 
 #hero h2 {
-  font-size: 2rem !important;
+  font-size: 1.3rem !important;
   margin-top: 5px;
 }
 
 #hero h1 {
-  font-size: 5rem !important;
+  font-size: 3.5rem !important;
   font-family: Ephesis, sans-serif;
 }
 
@@ -116,23 +120,23 @@ h3 {
 /* End hero */
 
 .satu svg {
-  margin-top: -200px;
+  margin-top: -100px;
 }
 
 /* Profil */
 
 #profil .ayat img {
   margin-bottom: 30px;
-  width: 9%;
+  width: 15%;
 }
 
 #profil .ayat p {
-  font-size: 1.5rem !important;
+  font-size: 1.1rem !important;
   margin-bottom: 30px;
 }
 
 #profil .ayat h3 {
-  font-size: 1.7rem !important;
+  font-size: 1.2rem !important;
 }
 
 #profil .ayat hr {
@@ -145,15 +149,15 @@ h3 {
 }
 
 #profil .pengantin {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #profil .pengantin h2 {
-  font-size: 2.5rem !important;
+  font-size: 1.3rem !important;
 }
 
 #profil .pengantin p {
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
 }
 
 #profil .pengantin a {
@@ -167,14 +171,14 @@ h3 {
 /* End profil */
 
 .dua svg {
-  margin-bottom: -200px !important;
-  opacity: 0;
+  margin-bottom: -50px !important;
+  opacity: 1;
 }
 
 /* Jadwal */
 
 #jadwal {
-  background-image: url(../img/20190720_222007.jpg);
+  background-image: url(../img/pngtree-pink-vector-beautiful-flower-wedding-photography-background-material-image_148310.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -191,7 +195,7 @@ h3 {
 
 #jadwal h1 {
   z-index: 1;
-  font-size: 3.2rem !important;
+  font-size: 3rem !important;
   font-weight: bold;
   font-family: Ephesis, sans-serif;
 }
@@ -220,17 +224,17 @@ h3 {
 
 #time svg {
   margin-top: -100px;
-  opacity: 0;
+  opacity: 1;
 }
 
 #time h1 {
-  font-size: 5rem !important;
+  font-size: 2.5rem !important;
   font-family: Ephesis, sans-serif;
   font-weight: bold;
 }
 
 #time .countdown {
-  font-size: 1.5rem !important;
+  font-size: 0.7rem !important;
 }
 
 .countdown div {
@@ -276,25 +280,25 @@ h3 {
 }
 
 #protokol h1 {
-  font-size: 3rem !important;
-}
-
-#protokol h3 {
   font-size: 1.5rem !important;
 }
 
+#protokol h3 {
+  font-size: 1rem !important;
+}
+
 #protokol svg {
-  width: 35%;
+  width: 50%;
 }
 
 #protokol p {
-  font-size: 1.2rem !important;
+  font-size: 0.7rem !important;
 }
 
 /* End protokol */
 
 /* Gift */
-
+/* 
 #gift {
   background-image: linear-gradient(#fff, var(--bgColor), #fff);
 }
@@ -376,7 +380,7 @@ h3 {
 
 #gift .overlay .alamatPengiriman img {
   width: 20% !important;
-}
+} */
 
 /* End gift */
 
@@ -384,6 +388,10 @@ h3 {
 
 footer {
   background-color: var(--bgColor);
+}
+
+footer h2 {
+  font-size: .8rem !important;
 }
 
 /* End footer */

@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
   /* Cover */
 
+
   #cover h2 {
     font-size: 3rem !important;
   }
@@ -166,6 +167,14 @@
   }
 
   /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.9rem !important;
+  }
+
+  /* End footer */
 }
 
 @media screen and (max-width: 768px) {
@@ -288,6 +297,14 @@
   }
 
   /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.9rem !important;
+  }
+
+  /* End footer */
 }
 
 @media screen and (max-width: 567px) {
@@ -417,11 +434,11 @@
   /* Protokol */
 
   #protokol h1 {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
 
   #protokol h3 {
-    font-size: 1.3rem !important;
+    font-size: 1.1rem !important;
   }
 
   #protokol svg {
@@ -429,7 +446,7 @@
   }
 
   #protokol p {
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
   }
 
   /* End protokol */
@@ -441,11 +458,11 @@
   }
 
   #gift h1 {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
 
   #gift h2 {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 
   #gift svg {
@@ -469,21 +486,19 @@
     width: 80%;
   }
 
-  #gift .akhirGift{
-    font-size: 1.5rem !important;
+  #gift .akhirGift {
+    font-size: 1.4rem !important;
   }
 
   /* End gift */
 
   /* Footer */
 
-  footer h2{
-    font-size: 1rem !important;
+  footer h2 {
+    font-size: 0.9rem !important;
   }
 
   /* End footer */
-
-
 }
 
 @media screen and (max-width: 360px) {
@@ -610,11 +625,11 @@
   /* Protokol */
 
   #protokol h1 {
-    font-size: 1.8rem !important;
+    font-size: 1.6rem !important;
   }
 
   #protokol h3 {
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
   }
 
   #protokol svg {
@@ -622,7 +637,7 @@
   }
 
   #protokol p {
-    font-size: 0.7rem;
+    font-size: 0.6rem !important;
   }
 
   /* End protokol */
@@ -630,15 +645,15 @@
   /* Gift */
 
   #gift img {
-    width: 15%;
+    width: 13%;
   }
 
   #gift h1 {
-    font-size: 1.7rem !important;
+    font-size: 1.5rem !important;
   }
 
   #gift h2 {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
   }
 
   #gift .overlay .card .hadiah h2 {
@@ -651,4 +666,12 @@
   }
 
   /* End gift */
+
+  /* Footer */
+
+  footer h2 {
+    font-size: 0.8rem !important;
+  }
+
+  /* End footer */
 }
